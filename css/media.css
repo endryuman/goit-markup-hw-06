@@ -259,11 +259,16 @@
     padding-bottom: 24px;
     padding-top: 24px;
   }
+  .customers {
+    width: 1158px;
+  }
   .footer {
     padding: 100px 0;
   }
   .footer-container {
     flex-wrap: unset;
+    width: unset;
+    gap: 0;
   }
   .footer-logo-p {
     margin-left: 0;
