@@ -109,6 +109,8 @@ header {
   justify-content: space-between;
   overflow: auto;
 }
+.mob-modal-field {
+}
 .mob-modal-btn {
   margin-left: auto;
   margin-bottom: 32px;
@@ -131,7 +133,6 @@ header {
   fill: var(--white);
 }
 .mob-menu-list {
-  margin-bottom: 284px;
 }
 .mob-menu-item {
   margin-bottom: 40px;
@@ -157,6 +158,7 @@ header {
 .mob-address-list {
 }
 .mob-tel-item {
+  font-style: normal;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.1;
@@ -168,6 +170,7 @@ header {
   color: var(--iris);
 }
 .mob-mail-link {
+  font-style: normal;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
