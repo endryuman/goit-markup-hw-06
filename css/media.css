@@ -160,6 +160,23 @@
   .modal {
     width: 408px;
   }
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+  .button-list {
+    flex-wrap: unset;
+    margin-bottom: 64px;
+  }
+  .button-list-item {
+    padding: 12px 24px;
+  }
+  .portfolio-list {
+    row-gap: 72px;
+  }
+  .portfolio-link {
+    width: calc((100% - 24px) / 2);
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -283,5 +300,18 @@
   }
   .footer-form-conteiner {
     margin-left: 0;
+  }
+  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+  .button-list {
+    margin-bottom: 72px;
+  }
+  .portfolio-list {
+    row-gap: 48px;
+  }
+  .portfolio-link {
+    width: calc((100% - 48px) / 3);
   }
 }

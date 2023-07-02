@@ -487,8 +487,8 @@ header {
 
 /* main portfolio---------------- */
 .portfolio {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 /** button list--- */
 .button-list {
@@ -496,17 +496,18 @@ header {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  margin-bottom: 72px;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
 }
 .button-list-item {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--iris);
   background: var(--cloud);
-  padding: 12px 24px;
+  padding: 12px 16px;
   border-radius: 4px;
   border: 1px solid #e7e9fc;
   transition: color var(--transition), background-color var(--transition),
@@ -526,7 +527,7 @@ header {
   flex-wrap: wrap;
 }
 .portfolio-link {
-  width: calc((100% - 48px) / 3);
+  width: 100%;
   padding-left: 0;
   transition: box-shadow var(--transition);
 }
@@ -547,6 +548,9 @@ header {
 .img-link {
   display: block;
   transition: box-shadow var(--transition);
+}
+.portfolio-img {
+  width: 100%;
 }
 .portfolio-tex {
   padding: 32px 16px;
